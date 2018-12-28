@@ -40,8 +40,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
+
     'ckeditor',
     'ckeditor_uploader',
+
+    'django_elasticsearch_dsl',
+    'django_elasticsearch_dsl_drf',
 
     'blog'
 ]
@@ -85,6 +89,13 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+}
+
+# Elasticsearch
+ELASTICSEARCH_DSL = {
+    'default': {
+        'hosts': 'localhost:9200'
+    },
 }
 
 
