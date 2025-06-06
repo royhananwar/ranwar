@@ -27,7 +27,7 @@ Experienced and innovative software engineer with a strong track record of deliv
 - **Databases:** PostgreSQL, Redis, InfluxDB
 - **DevOps:** System Monitoring, Grafana, PromQL, HAProxy
 - **Cloud:** AWS, Google Cloud Platform
-- **Leadership:** Team Management, Technical Mentoring, Code Review
+- **Leadership:** Team Management, Technical Mentoring, Code Review 
 
 ---
 
